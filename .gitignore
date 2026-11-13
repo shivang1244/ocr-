@@ -1,0 +1,48 @@
+﻿# Python virtual environments
+.venv/
+.venv-gpu/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Frontend dependencies and builds
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# .NET build artifacts
+**/bin/
+**/obj/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+secrets/
+*.pem
+*.key
+
+# Model weights and caches
+models/
+.cache/
+.paddlex/
+huggingface_cache/
+
+# Generated documents and temporary data
+outputs/
+uploads/
+temp/
+tmp/
+*.log
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

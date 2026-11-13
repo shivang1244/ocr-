@@ -1,0 +1,6 @@
+@UniversalDocument.Api_HostAddress = http://localhost:5270
+
+GET {{UniversalDocument.Api_HostAddress}}/health
+Accept: application/json
+
+###

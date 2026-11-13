@@ -1,0 +1,3 @@
+paddlepaddle==3.2.1
+paddleocr==3.7.0
+paddlex[ocr]==3.7.2
